@@ -2,7 +2,7 @@
 #define EXTERN
 #include "xchomp.h"
 
-/* 25 frames per seconds */
+/* 30 frames per seconds */
 #define TARGET_LOOP_DURATION_SECONDS 0.0333
 
 main(argc, argv)
