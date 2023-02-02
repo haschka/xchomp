@@ -15,7 +15,7 @@ To compile this you will need X11-dev headers/libraries on your system and
 a c compilier. I compilied this on gentoo with gcc like:
 
 ```
-gcc -O2 -march=native -std=gnu89 main.c demo.c contact.c maze.c props.c resources.c drivers.c status.c -I. -I./bitmaps -I/usr/include -I/usr/include/X11 -o chomp -lX11
+gcc -O2 -march=native -std=gnu89 main.c demo.c contact.c maze.c props.c resources.c drivers.c status.c -I. -I./bitmaps -I/usr/include -I/usr/include/X11 -o xchomp -lX11
 ```
 
 The program uses very old style C function declarations. Maybe one day one
