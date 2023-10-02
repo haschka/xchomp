@@ -20,3 +20,7 @@ gcc -O2 -march=native -std=gnu89 main.c demo.c contact.c maze.c props.c resource
 
 The program uses very old style C function declarations. Maybe one day one
 will port it to a newer C style. 
+
+Hello
+
+
