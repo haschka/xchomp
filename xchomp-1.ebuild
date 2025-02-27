@@ -16,7 +16,7 @@ BDEPEND="x11-libs/libX11"
 RDEPEND="x11-libs/libX11"
 
 src_compile() {
-        $(tc-getCC) -o -std=gnu89 main.c demo.c contact.c maze.c props.c \
+        $(tc-getCC) -std=gnu89 main.c demo.c contact.c maze.c props.c \
 	resources.c drivers.c status.c \
 	-I. -I./bitmaps -I/usr/include -I/usr/include/X11 \
 	-o xchomp -lX11 ${CFLAGS} ${LDFLAGS}
